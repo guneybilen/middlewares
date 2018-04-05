@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
-import usersReducaer from './users';
+import usersReducer from './users';
 
 const rootReducer = combineReducers({
   //  state: (state = {}) => state # dummy reducer - delete it when you start the project.
-  users: usersReducaer
+  users: usersReducer
 });
 
 export default rootReducer;
